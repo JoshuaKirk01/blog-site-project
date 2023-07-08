@@ -5,10 +5,14 @@ import { TrendingComponent } from './trending/trending.component';
 import { FeedComponent } from './feed/feed.component';
 import { ProfileComponent } from './profile/profile.component';
 import { SignInComponent } from './sign-in/sign-in.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 const routes: Routes = [
   {
-    component: HomeComponent, path: ''
+    path: '', redirectTo: '/home', pathMatch: 'full' 
+  },
+  {
+    component: HomeComponent, path: 'home'
   },
   {
     component: TrendingComponent, path: 'trending'
@@ -21,6 +25,9 @@ const routes: Routes = [
   },
   {
     component: SignInComponent, path: 'sign-in'
+  },
+  {
+    component: PageNotFoundComponent, path: '**'
   }
 ];
 

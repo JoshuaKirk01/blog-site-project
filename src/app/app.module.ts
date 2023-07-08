@@ -9,6 +9,7 @@ import { TrendingComponent } from './trending/trending.component';
 import { FeedComponent } from './feed/feed.component';
 import { ProfileComponent } from './profile/profile.component';
 import { SignInComponent } from './sign-in/sign-in.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SignInComponent } from './sign-in/sign-in.component';
     TrendingComponent,
     FeedComponent,
     ProfileComponent,
-    SignInComponent
+    SignInComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,

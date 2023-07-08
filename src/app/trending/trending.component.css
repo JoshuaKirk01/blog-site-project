@@ -1,0 +1,67 @@
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.blogs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.blog-img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.blog-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px 0;
+    height: 300px;
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    width: 50%;
+    margin: auto auto 25px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+hr {
+    border: 2px solid #d8d8d8;
+    width: 100%;
+    margin: 0;
+}

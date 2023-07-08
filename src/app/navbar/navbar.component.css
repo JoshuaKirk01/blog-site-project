@@ -33,28 +33,13 @@ a {
     transition: all 250ms;
 }
 
+li:hover {
+    cursor: pointer;
+}
+
 li:hover a {
     text-decoration: underline;
     font-weight: bold;
-}
-
-button {
-    border: 3px solid #008cff;
-    border-radius: 16px;
-    text-transform: uppercase;
-    padding: 10px 28px;
-    font-family: 'Montserrat', sans-serif !important;
-    font-weight: bold;
-    font-size: 16px;
-    background-color: #008cff;
-    color: white;
-    transition: all 250ms;
-}
-
-button:hover {
-    cursor: pointer;
-    background-color: white;
-    color: #008cff;
 }
 
 .space {

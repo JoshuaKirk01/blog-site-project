@@ -9,25 +9,25 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 
 const routes: Routes = [
   {
+    path: 'home', component: HomeComponent
+  },
+  {
+    path: 'trending', component: TrendingComponent
+  },
+  {
+    path: 'feed', component: FeedComponent
+  },
+  {
+    path: 'profile', component: ProfileComponent
+  },
+  {
+    path: 'sign-in', component: SignInComponent
+  },
+  {
     path: '', redirectTo: '/home', pathMatch: 'full' 
   },
   {
-    component: HomeComponent, path: 'home'
-  },
-  {
-    component: TrendingComponent, path: 'trending'
-  },
-  {
-    component: FeedComponent, path: 'feed'
-  },
-  {
-    component: ProfileComponent, path: 'profile'
-  },
-  {
-    component: SignInComponent, path: 'sign-in'
-  },
-  {
-    component: PageNotFoundComponent, path: '**'
+    path: '**', component: PageNotFoundComponent
   }
 ];
 

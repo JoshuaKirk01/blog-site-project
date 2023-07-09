@@ -1,14 +1,22 @@
-<nav>
-    <div class="space">
-        <h1>BLOG</h1>
+<header>
+    <nav>
+        <ul>
+            <li routerLink="" routerLinkActive="active"><a>Home</a></li>
+            <li routerLink="trending" routerLinkActive="active"><a>Trending</a></li>
+            <li routerLink="profile" routerLinkActive="active"><a>Profile</a></li>
+        </ul>
+    </nav>
+    <div class="title">BLOG</div>
+    <div class="topics">
+        <ul>
+            <li><a href="">Travel</a></li>
+            <li><a href="">Photography</a></li>
+            <li><a href="">Lifestyle</a></li>
+            <li><a href="">Technology</a></li>
+            <li><a href="">Design</a></li>
+            <li><a href="">Science</a></li>
+            <li><a href="">Fashion</a></li>
+        </ul>
+        <a routerLink="sign-in"><button class="sign-in">Sign In</button></a>
     </div>
-    <ul>
-        <li routerLink="" routerLinkActive="active"><a>Home</a></li>
-        <li routerLink="trending" routerLinkActive="active"><a>Trending</a></li>
-        <li routerLink="feed" routerLinkActive="active"><a>Feed</a></li>
-        <li routerLink="profile" routerLinkActive="active"><a>Profile</a></li>
-    </ul>
-    <div class="space">
-        <a routerLink="sign-in"><button>Sign In</button></a>
-    </div>
-</nav>
+</header>

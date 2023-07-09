@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { TrendingComponent } from './trending/trending.component';
-import { FeedComponent } from './feed/feed.component';
 import { ProfileComponent } from './profile/profile.component';
 import { SignInComponent } from './sign-in/sign-in.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
@@ -17,7 +16,6 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     HomeComponent,
     NavbarComponent,
     TrendingComponent,
-    FeedComponent,
     ProfileComponent,
     SignInComponent,
     PageNotFoundComponent

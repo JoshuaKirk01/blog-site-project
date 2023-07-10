@@ -5,7 +5,9 @@ html {
 }
 
 :root {
-    --accent: #ffd398;
+    --accent: #368ada;
+    --main: #1d222c;
+    --text: #949eb3;
 }
 
 body {

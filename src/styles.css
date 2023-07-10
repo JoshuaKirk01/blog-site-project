@@ -7,12 +7,15 @@ html {
 :root {
     --accent: #368ada;
     --main: #1d222c;
+    --main-dark: #151820;
     --text: #949eb3;
 }
 
 body {
     padding: 0;
     margin: 0;
+    background-color: var(--main-dark);
+    color: var(--text);
 }
 
 .pri-btn {

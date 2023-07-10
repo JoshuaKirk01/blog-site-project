@@ -1,7 +1,6 @@
 header {
     display: flex;
     flex-direction: column;
-    background-color: var(--main);
 }
 
 nav {
@@ -10,6 +9,7 @@ nav {
     align-items: center;
     height: 50px;
     width: 100vw;
+    background-color: var(--main);
 }
 
 ul {
@@ -54,6 +54,7 @@ li:hover a {
     justify-content: space-between;
     align-items: center;
     height: 50px;
+    background-color: var(--main);
 }
 
 .topics li {
@@ -62,7 +63,6 @@ li:hover a {
 
 .topics a {
     font-size: 10px;
-    color: var(--text);
 }
 
 .sign-btn {
@@ -93,6 +93,8 @@ li:hover a {
     height: 50px;
     font-size: 24px;
     font-weight: bold;
+    margin: 15px 0;
+    background-color: var(--main);
 }
 
 .search-box {
@@ -115,5 +117,4 @@ li:hover a {
     width: 18px;
     font-size: 18px;
     left: 24px;
-    color: var(--text);
 }

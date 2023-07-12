@@ -4,7 +4,14 @@ h3, h5 {
 
 /* Global */
 
-.blog {
+.heading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.blog,
+.popular-blog {
     position: relative;
     height: 100%;
     width: 100%;
@@ -56,6 +63,10 @@ hr {
     width: 90%;
     border: none;
     border-top: 2px solid var(--main-light);
+}
+
+.sub-section {
+    flex-direction: column;
 }
 
 /* Main */
@@ -117,15 +128,16 @@ hr {
 
 /* Popular */
 
-.heading {
-    display: flex;
-    justify-content: flex-start;
-}
-
 .popular-blogs {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 15px;
     width: 100%;
+}
+
+.popular-blog {
+    width: 40%;
     height: 250px;
 }
 
@@ -142,6 +154,7 @@ hr {
     padding: 8px 16px;
     background-color: var(--main);
     border-radius: 1rem;
+    font-size: 14px;
     transition: all 250ms;
 }
 
@@ -153,23 +166,65 @@ hr {
 
 /* Responsive */
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 1080px) {
     .main-blog,
     .sub-blogs,
-    .trending {
+    .trending,
+    .popular-blogs {
         width: 100%;
     }
 
-    .sub-blogs {
-        flex-direction: row;
+    .col {
+        flex-direction: column;
+        width: 100%;
     }
 
     .blog {
         height: auto;
     }
 
+    .sub-blogs {
+        flex-direction: row;
+    }
+
+    .popular-blogs h4 {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+
     .trending-blog img {
         width: 33%;
         height: 125px;
+    }
+
+    .popular-blogs {
+        gap: 25px;
+        height: 100%;
+    }
+
+    .popular-blog {
+        height: 200px;
+    }
+
+    .explore-topics h4 {
+        margin: 15px 50%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .trending-blog img {
+        height: 75px;
+    }
+
+    .popular-blogs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .popular-blog {
+        width: 75%;
+        height: 150px;
     }
 }

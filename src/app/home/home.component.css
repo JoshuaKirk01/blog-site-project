@@ -51,11 +51,13 @@ h3, h5 {
     font-size: 12px;
 }
 
-.blog:hover {
+.blog:hover,
+.popular-blog:hover {
     cursor: pointer;
 }
 
-.blog:hover .blog-info {
+.blog:hover .blog-info,
+.popular-blog:hover .blog-info {
     background-color: rgba(0, 0, 0, 0.8);
 }
 

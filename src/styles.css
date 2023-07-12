@@ -9,7 +9,7 @@ html {
     --main: #1d222c;
     --main-dark: #151820;
     --main-light: #252b36;
-    --text: #949eb3;
+    --text: #adb3be;
 }
 
 body {
@@ -17,6 +17,23 @@ body {
     margin: 0;
     background-color: var(--main-dark);
     color: var(--text);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    max-width: 1366px;
+    margin: auto auto 50px;
+    gap: 15px;
+}
+
+.section {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    margin-bottom: 50px;
 }
 
 .pri-btn {
@@ -35,4 +52,26 @@ body {
 .pri-btn:hover {
     cursor: pointer;
     background-color: white;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 720px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sub-section {
+        width: 100%;
+    }
+
+    .col {
+        flex-direction: column;
+        width: 100%;
+    }
 }

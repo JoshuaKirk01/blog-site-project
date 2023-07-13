@@ -68,22 +68,17 @@ li:hover a {
 .sign-btn {
     margin-right: 20px;
     padding: 4px 16px;
-    border: none;
+    border: 3px solid var(--accent);
     font-size: 12px;
     font-family: 'Montserrat', sans-serif !important;
-    color: var(--text);
-    background-color: var(--main);
+    background-color: var(--accent);
+    color: white;
     transition: all 250ms;
 }
 
 .sign-btn:hover {
     cursor: pointer;
-    text-decoration: underline;
-    color: white;
-}
-
-.sign-up {
-    border: 2px solid var(--accent);
+    background-color: var(--main);
 }
 
 .search {

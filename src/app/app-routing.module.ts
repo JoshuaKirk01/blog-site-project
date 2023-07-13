@@ -5,6 +5,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { MembershipComponent } from './membership/membership.component';
 import { ContactComponent } from './contact/contact.component';
 import { BlogComponent } from './blog/blog.component';
+import { SignInComponent } from './sign-in/sign-in.component';
 
 const routes: Routes = [
   {
@@ -18,6 +19,9 @@ const routes: Routes = [
   },
   {
     path: 'blog', component: BlogComponent, pathMatch: 'full'
+  },
+  {
+    path: 'sign-in', component: SignInComponent, pathMatch: 'full'
   },
   {
     path: '', redirectTo: '/home', pathMatch: 'full' 

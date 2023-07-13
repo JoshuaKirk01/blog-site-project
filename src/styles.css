@@ -23,6 +23,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 90%;
     max-width: 1366px;
     margin: auto auto 50px;

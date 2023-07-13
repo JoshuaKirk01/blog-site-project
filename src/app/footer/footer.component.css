@@ -1,12 +1,16 @@
 footer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 50px 0;
     background-color: var(--main);
 }
 
 h3 {
     color: white;
+}
+
+.newsletter-container {
+    margin: 0 200px;
 }
 
 .section {

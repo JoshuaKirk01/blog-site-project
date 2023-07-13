@@ -1,3 +1,7 @@
+.main {
+    align-items: normal;
+}
+
 .profile {
     display: flex;
     margin: 15px;

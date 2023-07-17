@@ -1,0 +1,31 @@
+.pro {
+    color: var(--accent);
+}
+
+.sml {
+    font-size: 12px;
+    margin-left: 25px;
+}
+
+.container {
+    text-align: left;
+    margin-bottom: 150px;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 75px;
+}
+
+.upgrade {
+    text-align: center;
+    margin: 100px 0;
+}
+
+.pri-btn {
+    width: 350px;
+    height: 75px;
+    font-size: 20px;
+    margin-top: 50px;
+}

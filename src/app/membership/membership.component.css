@@ -2,10 +2,6 @@
     color: var(--accent);
 }
 
-.sml {
-    font-size: 12px;
-}
-
 .container {
     text-align: left;
     margin-bottom: 150px;
@@ -17,43 +13,53 @@
     margin: 50px 0 75px;
 }
 
-.upgrade {
-    text-align: center;
-    margin: 100px 0;
+.plans {
+    display: flex;
+    justify-content: center;
 }
 
-.upgrade button {
-    margin-bottom: 25px;
+.table {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
 }
 
-table, th, td {
+.tc {
+    display: flex;
+    flex-direction: column;
+}
+
+.td, .th {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px solid var(--main-light);
-    border-collapse: collapse;
-}
-
-th, td {
     padding: 12px;
-    text-align: center;
-    width: 200px;
+    width: 225px;
+    height: 30px;
 }
 
-th {
+.th {
     color: white;
+    font-weight: bold;
 }
 
-th:nth-child(1) {
+.basic-head {
     background-color: rgb(253, 88, 88);
 }
 
-th:nth-child(2) {
+.pro-head {
     background-color: var(--accent);
 }
 
-th:nth-child(3) {
+.premium-head {
     background-color: gold;
 }
 
 .emph {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-weight: bold;
     color: white;
 }
@@ -69,4 +75,19 @@ th:nth-child(3) {
 
 .pre {
     color: gold;
+}
+
+.upgrade {
+    text-align: center;
+    margin: 100px 0;
+}
+
+.upgrade button {
+    margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 1080px) {
+    .table {
+        flex-direction: column;
+    }
 }

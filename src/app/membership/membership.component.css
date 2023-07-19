@@ -22,6 +22,10 @@
     margin: 100px 0;
 }
 
+.upgrade button {
+    margin-bottom: 25px;
+}
+
 table, th, td {
     border: 1px solid var(--main-light);
     border-collapse: collapse;
@@ -33,17 +37,36 @@ th, td {
     width: 200px;
 }
 
-th:nth-child(2) {
-    background-color: rgb(253, 88, 88);
+th {
     color: white;
 }
 
-th:nth-child(3) {
+th:nth-child(1) {
+    background-color: rgb(253, 88, 88);
+}
+
+th:nth-child(2) {
     background-color: var(--accent);
-    color: white;
+}
+
+th:nth-child(3) {
+    background-color: gold;
 }
 
 .emph {
     font-weight: bold;
     color: white;
+}
+
+.premium {
+    background-color: gold;
+    border-color: gold;
+}
+
+.premium:hover {
+    background-color: var(--main);
+}
+
+.pre {
+    color: gold;
 }

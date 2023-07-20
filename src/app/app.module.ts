@@ -7,7 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { MembershipComponent } from './membership/membership.component';
-import { ContactComponent } from './contact/contact.component';
+import { SupportComponent } from './support/support.component';
 import { BlogComponent } from './blog/blog.component';
 import { FooterComponent } from './footer/footer.component';
 import { SignInComponent } from './sign-in/sign-in.component';
@@ -19,7 +19,7 @@ import { SignInComponent } from './sign-in/sign-in.component';
     NavbarComponent,
     PageNotFoundComponent,
     MembershipComponent,
-    ContactComponent,
+    SupportComponent,
     BlogComponent,
     FooterComponent,
     SignInComponent

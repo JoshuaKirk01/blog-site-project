@@ -11,6 +11,7 @@ h3 {
 
 .newsletter-container {
     margin: 0 200px;
+    text-align: center;
 }
 
 .section {
@@ -64,5 +65,9 @@ button {
 @media only screen and (max-width: 1080px) {
     footer {
         flex-direction: column;
+    }
+
+    .newsletter-container {
+        margin: 0 50px;
     }
 }
